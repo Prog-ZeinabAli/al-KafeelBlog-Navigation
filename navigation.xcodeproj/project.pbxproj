@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3693FD1240086D00066BC2C /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3693FD0240086D00066BC2C /* logInViewController.swift */; };
+		E3693FD3240087A40066BC2C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3693FD2240087A40066BC2C /* Utilities.swift */; };
+		E3693FD524008F950066BC2C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3693FD424008F950066BC2C /* SignUpViewController.swift */; };
 		E3E1F9F223FC0A6400F41B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E1F9F123FC0A6400F41B93 /* AppDelegate.swift */; };
 		E3E1F9F423FC0A6400F41B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E1F9F323FC0A6400F41B93 /* SceneDelegate.swift */; };
 		E3E1F9F623FC0A6400F41B93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E1F9F523FC0A6400F41B93 /* HomeViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3693FD0240086D00066BC2C /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
+		E3693FD2240087A40066BC2C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E3693FD424008F950066BC2C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E3E1F9EE23FC0A6400F41B93 /* navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E1F9F123FC0A6400F41B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E1F9F323FC0A6400F41B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +111,13 @@
 		E3E1F9F023FC0A6400F41B93 /* navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E3693FD2240087A40066BC2C /* Utilities.swift */,
 				E3E1F9F123FC0A6400F41B93 /* AppDelegate.swift */,
 				E3E1F9F323FC0A6400F41B93 /* SceneDelegate.swift */,
 				E3E1F9F523FC0A6400F41B93 /* HomeViewController.swift */,
 				E3E1F9F723FC0A6400F41B93 /* Main.storyboard */,
+				E3693FD424008F950066BC2C /* SignUpViewController.swift */,
+				E3693FD0240086D00066BC2C /* logInViewController.swift */,
 				E3E1FA2423FC0B6F00F41B93 /* menuViewController.swift */,
 				E3E1FA2623FC17FA00F41B93 /* SlideInTransition.swift */,
 				E3E1F9FD23FC0A6A00F41B93 /* Assets.xcassets */,
@@ -271,8 +280,11 @@
 				E3E1F9F623FC0A6400F41B93 /* HomeViewController.swift in Sources */,
 				E3E1F9F223FC0A6400F41B93 /* AppDelegate.swift in Sources */,
 				E3E1F9F423FC0A6400F41B93 /* SceneDelegate.swift in Sources */,
+				E3693FD1240086D00066BC2C /* logInViewController.swift in Sources */,
 				E3E1FA2723FC17FA00F41B93 /* SlideInTransition.swift in Sources */,
 				E3E1F9FC23FC0A6400F41B93 /* navigation.xcdatamodeld in Sources */,
+				E3693FD524008F950066BC2C /* SignUpViewController.swift in Sources */,
+				E3693FD3240087A40066BC2C /* Utilities.swift in Sources */,
 				E3E1FA2523FC0B6F00F41B93 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
