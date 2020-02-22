@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FacebookLogin
+import FacebookCore
 
 class logInViewController: UIViewController {
    
@@ -22,6 +24,26 @@ class logInViewController: UIViewController {
         //function to keep the look of the scene
          styles()
         // Do any additional setup after loading the view.
+    }
+    @IBAction func LogInTapped(_sender: Any) {
+        let manager = LoginManager()
+          manager.logIn(permissions: [.publicProfile, .email], viewController: self)
+          {
+              (Result) in switch Result
+              {
+              case.cancelled:
+                  print("user cancelled process")
+                  break
+              case.failed(let error):
+                  print("failed \(error)")
+                  break
+              case.success(granted: let grant, declined: let dec, token: let token):
+                  print("access token \(token)")
+                  
+                  
+                  
+          }
+          }
     }
     
     func styles()
